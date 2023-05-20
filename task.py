@@ -19,6 +19,6 @@ def minimal_task():
     wi.get_input_work_item()
     customers = wi.get_work_item_variable("customers")
     print(customers)
-    wi.get_work_item_file('prueba.xlsx')
+    wi.get_work_item_file(name='prueba.xlsx',path=Excel)
 if __name__ == "__main__":
     minimal_task()
