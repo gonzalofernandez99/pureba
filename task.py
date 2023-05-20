@@ -23,7 +23,9 @@ def minimal_task():
     wi = WorkItems()
     wi.get_input_work_item()
     customers = wi.get_work_item_variable("customers")
+    customers2 = wi.get_work_item_variable("customers2")
     print(customers)
+    print(customers2)
     
     
     
